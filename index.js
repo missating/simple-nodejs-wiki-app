@@ -13,7 +13,7 @@ request(url, function(err, response, body) {
     } else {
         var wiki = JSON.parse(body);
         for (var i = 0; i < wiki[1].length; i++) {
-            var message = `You searched for ${wiki[1][i]}: And these are the details - ${wiki[2][i]} Follow this link to read more - ${wiki[3][i]}`;
+            var message = `You searched for ${wiki[1][i]}: And these are the details - ${wiki[2][i]} Follow this link to read more - ${wiki[3][i]}` + "\n";
             console.log(message);
         }
 
