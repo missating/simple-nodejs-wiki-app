@@ -12,3 +12,5 @@ This was done using yargs <pre><code> npm install yargs --save </code></pre>
 
 Then run the app to search for different words like this: 
 <pre><code> node index.js -q python </code></pre>
+
+<p> A step by step tutorial on how this project was built can be found: <a href="https://medium.com/@atingenkay/node-js-build-a-simple-wikipedia-viewer-a5030322f5bb">Here</a> </p>
